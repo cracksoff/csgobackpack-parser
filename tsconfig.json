@@ -1,0 +1,10 @@
+{
+	"extends": "@onmoon/tsconfigs/node-executable",
+	"compilerOptions": {
+		"outDir": ".build",
+		"paths": {
+			"#app/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts"]
+}
